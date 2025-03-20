@@ -21,7 +21,11 @@ public class BilheteUnico {
 
     //método para carregar o bilhete
     public double carregaBilhete(double valor) {
-        this.saldo += valor;
+        if (valor > 0) {
+            saldo += valor;
+        } else {
+            System.out.println("Valor deve ser positivo!");
+        }
         return saldo;
     }
 
