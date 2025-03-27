@@ -30,7 +30,7 @@ public class BilheteUnico {
     }
 
     //método para consultar o saldo do bilhete
-    public double consultaBilhete() {
+    public double consultaSaldo() {
         return saldo;
     }
 
